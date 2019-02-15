@@ -3,7 +3,7 @@ template: post
 title: Bienvenidos a mi blog
 slug: /blog/bienvenidos-a-mi-blog
 draft: false
-date: 2019-02-18T13:00:51.461Z
+date: 2019-02-15T13:00:51.461Z
 description: >-
   Después de unos meses aprendiendo desarrollo web, y de tener la idea en mi
   cabeza de iniciar un blog; esa idea ha pasado a ser realidad. Bienvenidos a mi
