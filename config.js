@@ -2,37 +2,35 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Juan Pablo Calao | Frontend developer',
+  subtitle: 'Bienvenidos a mi blog.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 6,
+  googleAnalyticsId: '',
   menu: [
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Sobre mí',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Contáctame',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Juan Pablo Calao',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Soy un desarrollador frontend apasionado por aprender, por la música, y por enseñar',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      twitter: '@CalaoJuanPablo',
+      github: 'CalaoJuanPablo',
+      linkedin: 'calaojuanpablo',
+      email: 'me@calaojuanpablo.com',
     }
   }
 };
