@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://calaojuanpablo.com',
   title: 'Juan Pablo Calao | Frontend developer',
   subtitle: 'Bienvenidos a mi blog.',
   copyright: '© All rights reserved.',
@@ -24,7 +24,7 @@ module.exports = {
   ],
   author: {
     name: 'Juan Pablo Calao',
-    photo: '/photo.jpg',
+    photo: '/photo.png',
     bio: 'Soy un desarrollador frontend apasionado por aprender, por la música, y por enseñar',
     contacts: {
       twitter: '@CalaoJuanPablo',
