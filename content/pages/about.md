@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Sobre mí"
 template: "page"
 ---
 
