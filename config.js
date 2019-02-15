@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://calaojuanpablo.com',
   title: 'Juan Pablo Calao | Frontend developer',
   subtitle: 'Bienvenidos a mi blog.',
-  copyright: '© All rights reserved.',
+  copyright: 'CalaoJuanPablo © All rights reserved.',
   disqusShortname: '',
   postsPerPage: 6,
   googleAnalyticsId: '',
@@ -25,7 +25,7 @@ module.exports = {
   author: {
     name: 'Juan Pablo Calao',
     photo: '/photo.png',
-    bio: 'Soy un desarrollador frontend apasionado por aprender, por la música, y por enseñar',
+    bio: 'Frontend developer apasionado por aprender, por la música, y por enseñar',
     contacts: {
       twitter: '@CalaoJuanPablo',
       github: 'CalaoJuanPablo',
