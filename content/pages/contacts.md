@@ -2,6 +2,6 @@
 template: page
 title: Contáctame
 slug: contact
-draft: true
+draft: false
 ---
 TODO
