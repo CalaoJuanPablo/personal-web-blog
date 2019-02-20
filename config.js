@@ -16,10 +16,6 @@ module.exports = {
     {
       label: 'Sobre mí',
       path: '/pages/about'
-    },
-    {
-      label: 'Contáctame',
-      path: '/pages/contacts'
     }
   ],
   author: {
