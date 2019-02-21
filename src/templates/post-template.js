@@ -2,6 +2,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Post from '../components/Post';
+import Sidebar from '../components/Sidebar';
+import Page from '../components/Page';
 
 const PostTemplate = ({ data }) => {
   const {
@@ -18,7 +20,10 @@ const PostTemplate = ({ data }) => {
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
-      <Post post={data.markdownRemark} />
+      <Sidebar />
+      <Page>
+        <Post post={data.markdownRemark} />
+      </Page>
     </Layout>
   );
 };
