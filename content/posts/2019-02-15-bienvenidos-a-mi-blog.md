@@ -22,6 +22,6 @@ Como estudiante no fui el más destacado, tampoco era malo, pero cuando se trata
 
 Como les dije, soy ingeniero industrial, y en esto del desarrollo web llevo poco más de un año. Contaré mi historia en HTML, CSS y JavaScript (o si les gusta, Javascript). Además habrán cosas acerca de R (un lenguaje para hacer ciencia de datos), porque amo la estadística, y me gusta R (aunque a la mayoría le guste Python).
 
-También buscaré hablar de las tendencias en desarrollo, diseño, y cosas relacionadas con la industria tech, y por supuesto, daré mi opinión al respecto de cada una. Trataré de hacer tutoriales de cosas específicas y útiles, y de compartir mi conocimiento con el mundo de internet.
+También buscaré hablar de las tendencias en desarrollo, diseño, y cosas relacionadas con la industria tech, y por supuesto, daré mi opinión respecto de cada una. Trataré de hacer tutoriales de cosas específicas y útiles, y de compartir mi conocimiento con el mundo de internet.
 
 En fin, no quiero hacer este post más largo. Sólo quiero decirles que me pueden encontrar en todo el internet donde tengo presencia como @CalaoJuanPablo. No siendo más, Bienvenidos a mi blog.
