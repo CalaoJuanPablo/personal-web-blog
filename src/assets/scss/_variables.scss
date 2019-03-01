@@ -2,13 +2,16 @@
  * Variables
  */
 
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,600');
+
 // Colors
 $color-base: #424242;
-$color-primary: #efcc20;
+$color-primary: #fdde4b;
 $color-secondary: #b2b2b2;
 
-$color-link-p: #000;
-$color-link-s: #A32244;
+$color-link-p: $color-base;
+$color-link-s: $color-primary;
 
 $color-white: #FFF;
 $color-gray: lighten($color-base, 40%);
@@ -16,13 +19,15 @@ $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
 
 // Typographic
-$typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$typographic-google-fonts-text-font-family: 'Raleway';
+$typographic-google-fonts-title-font-family: 'Montserrat', sans-serif;
+$typographic-font-family: $typographic-google-fonts-text-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 21px;
 $typographic-small-font-size: 17px;
 
-$typographic-base-line-height: 1.625;
+$typographic-base-line-height: 1.8;
 
 $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-link-p;
