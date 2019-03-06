@@ -9,4 +9,4 @@ Adicionalmente trabajo en analítica de datos utilizando [R](https://www.rstudio
 
 Soy alguien apasionado por aprender nuevas cosas constantemente. Actualmente estoy aprendiendo [Flutter](http://flutter.io).
 
-Puedes echar un vistazo de los proyectos que he hecho en [mi github](https://github.com/CalaoJuanPablo).
+Puedes echar un vistazo de los proyectos que he hecho en [mi github](https://github.com/CalaoJuanPablo), o escribirme a [me@calaojuanpablo.com](mailto:me@calaojuanpablo.com)
