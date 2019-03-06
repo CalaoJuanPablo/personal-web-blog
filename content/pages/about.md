@@ -8,3 +8,5 @@ Soy un desarrollador frontend amante del código limpio, que siempre busca enten
 Adicionalmente trabajo en analítica de datos utilizando [R](https://www.rstudio.com/) y todo lo que el [Tidyverse](https://www.tidyverse.org/) tiene para ofrecer.
 
 Soy alguien apasionado por aprender nuevas cosas constantemente. Actualmente estoy aprendiendo [Flutter](http://flutter.io).
+
+Puedes echar un vistazo de los proyectos que he hecho en [mi github](https://github.com/CalaoJuanPablo).
