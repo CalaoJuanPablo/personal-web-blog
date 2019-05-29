@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import * as _ from 'lodash';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
@@ -21,13 +22,14 @@ const CategoryTemplate = ({ data, pageContext }) => {
     hasNextPage,
   } = pageContext;
 
+  const categoryTitle = _.capitalize(category);
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${category} - ${siteTitle}`;
+  const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${categoryTitle} - ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
-      <Page title={category}>
+      <Page title={categoryTitle}>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
