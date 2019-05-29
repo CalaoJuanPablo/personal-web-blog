@@ -8,7 +8,7 @@ describe('Comments', () => {
       data: {
         site: {
           siteMetadata: {
-            url: 'http://localhost',
+            siteUrl: 'http://localhost',
             disqusShortname: 'test'
           }
         }
