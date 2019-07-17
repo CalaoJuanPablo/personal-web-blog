@@ -26,39 +26,39 @@ h4,
 h5,
 h6 {
   font-family: $typographic-google-fonts-title-font-family;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h1 {
-  font-size: $typographic-base-font-size * 2.5;
+  font-size: $typographic-base-font-size * 3.052;
   @include line-height(2);
   @include margin-top(4);
   @include margin-bottom(1);
 }
 
 h2 {
-  font-size: $typographic-base-font-size * 1.6875;
+  font-size: $typographic-base-font-size * 2.441;
   @include line-height(1.5);
   @include margin-top(2);
   @include margin-bottom(.5);
 }
 
 h3 {
-  font-size: $typographic-base-font-size * 1.375;
+  font-size: $typographic-base-font-size * 1.953;
   @include line-height(1);
   @include margin-top(2);
   @include margin-bottom(.5);
 }
 
 h4 {
-  font-size: $typographic-base-font-size * 1.2;
+  font-size: $typographic-base-font-size * 1.563;
   @include line-height(1);
   @include margin-top(1.5);
   @include margin-bottom(.5);
 }
 
 h5 {
-  font-size: $typographic-base-font-size;
+  font-size: $typographic-base-font-size * 1.25;
   @include line-height(1);
   @include margin-top(2.5);
   @include margin-bottom(.5);
@@ -95,7 +95,7 @@ hr {
 a {
   color: $typographic-link-p-font-color;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: bold;
   transition: 300ms ease;
   &:hover,
   &:focus,

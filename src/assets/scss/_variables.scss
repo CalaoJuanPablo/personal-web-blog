@@ -3,7 +3,7 @@
  */
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans&display=swap');
 
 // Colors
 $color-base: #333333;
@@ -19,15 +19,15 @@ $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
 
 // Typographic
-$typographic-google-fonts-text-font-family: 'Raleway';
+$typographic-google-fonts-text-font-family: 'Open Sans', sans-serif;
 $typographic-google-fonts-title-font-family: 'Montserrat', sans-serif;
 $typographic-font-family: $typographic-google-fonts-text-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 $typographic-root-font-size: 100;
-$typographic-base-font-size: 21px;
-$typographic-small-font-size: 17px;
+$typographic-base-font-size: 18px;
+$typographic-small-font-size: 12px;
 
-$typographic-base-line-height: 1.8;
+$typographic-base-line-height: 1.5;
 
 $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-link-p;
