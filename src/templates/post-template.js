@@ -6,18 +6,34 @@ import Post from '../components/Post';
 const PostTemplate = ({ data }) => {
   const {
     title: siteTitle,
-    subtitle: siteSubtitle
+    subtitle: siteSubtitle,
+    siteUrl,
+    author: {
+      photo,
+      contacts: {
+        twitter: twitterUser
+      }
+    }
   } = data.site.siteMetadata;
 
   const {
     title: postTitle,
-    description: postDescription
+    description: postDescription,
+    slug: postSlug
   } = data.markdownRemark.frontmatter;
 
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
+  const postUrl = siteUrl + postSlug;
+  const image = siteUrl + photo;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
+    <Layout
+      title={`${postTitle} - ${siteTitle}`}
+      description={metaDescription}
+      url={postUrl}
+      image={image}
+      twitterUser={twitterUser}
+    >
         <Post post={data.markdownRemark} />
     </Layout>
   );
@@ -29,6 +45,7 @@ export const query = graphql`
       siteMetadata {
         author {
           name
+          photo
           contacts {
             twitter
           }
@@ -50,6 +67,7 @@ export const query = graphql`
         description
         tags
         title
+        slug
       }
     }
   }
