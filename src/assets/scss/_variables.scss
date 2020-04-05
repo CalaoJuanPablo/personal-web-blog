@@ -3,7 +3,7 @@
  */
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
 // Colors
 $color-base: #333333;
@@ -13,15 +13,17 @@ $color-secondary: #b2b2b2;
 $color-link-p: $color-primary;
 $color-link-s: $color-primary;
 
-$color-white: #FFF;
+$color-white: #fff;
 $color-gray: lighten($color-base, 40%);
 $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
 
 // Typographic
-$typographic-google-fonts-text-font-family: 'Open Sans', sans-serif;
-$typographic-google-fonts-title-font-family: 'Montserrat', sans-serif;
-$typographic-font-family: $typographic-google-fonts-text-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$typographic-google-fonts-text-font-family: "DM Sans", sans-serif;
+$typographic-google-fonts-title-font-family: "DM Sans", sans-serif;
+$typographic-font-family: $typographic-google-fonts-text-font-family,
+	-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
+	Cantarell, "Helvetica Neue", sans-serif;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 18px;
@@ -33,7 +35,9 @@ $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-link-p;
 $typographic-link-s-font-color: $color-link-s;
 
-$typographic-leading: round(18 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
+$typographic-leading: round(
+	18 * ($typographic-root-font-size / 100) * $typographic-base-line-height
+);
 
 // Buttons
 $button-height: 35px;
