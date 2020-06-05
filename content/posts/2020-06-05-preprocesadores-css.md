@@ -19,6 +19,6 @@ Los preprocesadores no son más que una herramienta que nos ayudan a invertir me
 
 En general los tres hacen lo mismo, se ven muy similares y tienen las mismas características. Personalmente me atrajo más Stylus, porque es el que más se parece a CSS puro, y porque no usa  llaves ni punto y comas. Sin embargo, en todas las ofertas laborales que he visto el que más solicitan es SASS. Mi elección, pues estoy profundizando en SASS.
 
-Contrario a lo que yo creía, los preprocesadores no te hacen evitar aprender CSS (no son como Bootstrap, Foundation, Materialize CSS, etc). Sïmplemente te dan herramientas o funcionalidades que te ayudan a evitar repetir mucho código, así como escribir menos líneas. Además, te permite modularizar los estilos de acuerdo a componentes, cosa que está genial, porque como frontends estamos acostumbrados a pensar así.
+Contrario a lo que yo creía, los preprocesadores no te hacen evitar aprender CSS (no son como Bootstrap, Foundation, Materialize CSS, etc). Símplemente te dan herramientas o funcionalidades que te ayudan a evitar repetir mucho código, así como escribir menos líneas. Además, te permite modularizar los estilos de acuerdo a componentes, cosa que está genial, porque como frontends estamos acostumbrados a pensar así.
 
 Para terminar, si nunca has utilizado uno de estos preprocesadores, te invito a que los intentes. han mejorado mi experiencia escribiendo estilos, y ojalá lo hagan contigo también.
