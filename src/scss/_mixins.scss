@@ -2,3 +2,18 @@
 
 @import "./mixins/grids";
 @import "./mixins/breakpoints";
+
+@mixin container($article) {
+	width: calc(100vw - 40px);
+	@if $article == true {
+		max-width: 840px;
+	} @else {
+		max-width: 960px;
+	}
+	margin: 0 auto;
+}
+
+@mixin heroContainer {
+	@include container(false);
+	max-width: 1200px;
+}

@@ -1,0 +1,46 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.Header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@include heroContainer();
+
+	&__logo {
+		height: 65px;
+		margin: 0;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	&__nav {
+		&__menu-icon {
+			width: 32px;
+			height: 32px;
+			position: relative;
+			cursor: pointer;
+			z-index: 5;
+			
+			i {
+				position: absolute;
+				height: 1px;
+				background-color: $color-black;
+				width: 32px;
+			} 
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+			display: flex;
+			list-style: none;
+
+			&--active {
+				color: red;
+			}
+		}
+	}
+}
