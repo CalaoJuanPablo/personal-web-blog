@@ -3,7 +3,7 @@ title: "Sobre mí"
 template: "page"
 ---
 
-Hola 👋 soy Juan Pablo Calao, y soy Frontend Developer, aficionado al diseño UI/UX, músico y guitarrista. Soy alguien que constantemente está aprendiendo cosas nuevas de áreas distintas a mi profesión. Me gusta entender el cómo de las cosas, y no simplemente el qué.
+Hola 👋 soy Juan Pablo Calao y soy Frontend Developer, aficionado al diseño UI/UX, músico y guitarrista. Soy alguien que constantemente está aprendiendo cosas nuevas de áreas distintas a mi profesión. Me gusta entender el cómo de las cosas, y no simplemente el qué.
 
 Creo firmemente que el conocimiento debe ser transferido. Por eso soy apasionado por enseñar a los demás las cosas que voy aprendiendo. He tenido la oportunidad de participar en meetups en la ciudad donde vivo, y dentro de la empresa para la que trabajo actualmente participio en espacios de aprendizaje colectivo con mis coworkers.
 
