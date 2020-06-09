@@ -5,10 +5,11 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px 0;
 	@include heroContainer();
 
 	&__logo {
-		height: 65px;
+		width: 65px;
 		margin: 0;
 		img {
 			width: 100%;
