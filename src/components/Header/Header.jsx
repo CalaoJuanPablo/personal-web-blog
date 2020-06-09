@@ -13,6 +13,10 @@ export function Header() {
 		setMenuIsOpen(!menuIsOpen)
 	}
 
+	function handleCloseMenu() {
+		setMenuIsOpen(false)
+	}
+
 	return (
 		<header className={styles['Header']} data-state={menuIsOpen}>
 			<figure className={styles['Header__logo']}>
@@ -32,18 +36,25 @@ export function Header() {
 						<Link
 							to="/"
 							activeClassName={styles['Header__nav--active']}
+							onClick={handleCloseMenu}
 						>
 							home
 						</Link>
 					</li>
 					<li>
-						<Link to="/about">about</Link>
+						<Link to="/about" onClick={handleCloseMenu}>
+							about
+						</Link>
 					</li>
 					<li>
-						<Link to="/work">work</Link>
+						<Link to="/work" onClick={handleCloseMenu}>
+							work
+						</Link>
 					</li>
 					<li>
-						<Link to="/blog">blog (es)</Link>
+						<Link to="/blog" onClick={handleCloseMenu}>
+							blog (es)
+						</Link>
 					</li>
 				</ul>
 			</nav>
