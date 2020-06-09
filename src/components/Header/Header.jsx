@@ -1,26 +1,10 @@
 // Dependencies
 import React from 'react'
 import { Link } from 'gatsby'
-import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+// Components
+import { LogoSharp } from '../Utilities'
 // Styles
 import styles from './Header.module.scss'
-
-function Image() {
-	const data = useStaticQuery(graphql`
-		query GET_LOGO {
-			logo: file(relativePath: { eq: "logo.png" }) {
-				childImageSharp {
-					fluid {
-						...GatsbyImageSharpFluid
-					}
-				}
-			}
-		}
-	`)
-
-	return <Img fluid={data.logo.childImageSharp.fluid} alt="Logo" />
-}
 
 export function Header() {
 	let [menuIsOpen, setMenuIsOpen] = React.useState(false)
@@ -38,7 +22,7 @@ export function Header() {
 	return (
 		<header className={styles['Header']} data-state={menuIsOpen}>
 			<figure className={styles['Header__logo']}>
-				<Image />
+				<LogoSharp />
 			</figure>
 			<nav className={styles['Header__nav']}>
 				<div

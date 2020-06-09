@@ -1,0 +1,28 @@
+.Footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	&__logo {
+		display: none;
+	}
+
+	&__socialMediaLinks {
+		margin: 0 auto;
+		padding: 0;
+		margin-bottom: 40px;
+		margin-left: auto;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		max-width: 170px;
+		list-style: none;
+
+		li {
+			font-size: 30px;
+		}
+	}
+
+	&__copyright {
+		text-align: center;
+	}
+}
