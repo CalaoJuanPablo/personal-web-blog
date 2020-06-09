@@ -10,7 +10,7 @@ module.exports = {
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `images`,
-				path: `${__dirname}/src/static/images`,
+				path: `${__dirname}/content/static/images`,
 			},
 		},
 		`gatsby-plugin-sass`,
@@ -19,13 +19,13 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `gatsby-starter-default`,
-				short_name: `starter`,
+				name: `calaojuanpablo`,
+				short_name: `cjp`,
 				start_url: `/`,
 				background_color: `#ffffff`,
 				theme_color: `#ffffff`,
 				display: `minimal-ui`,
-				icon: `src/static/images/logo.png`, // This path is relative to the root of the site.
+				icon: `content/static/images/logo.png`, // This path is relative to the root of the site.
 			},
 		},
 		`gatsby-plugin-flow`,
