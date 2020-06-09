@@ -1,6 +1,6 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
 
 export function SEO({ description = '', lang = 'en', meta = [], title }) {
 	const { site } = useStaticQuery(
@@ -15,9 +15,9 @@ export function SEO({ description = '', lang = 'en', meta = [], title }) {
 				}
 			}
 		`
-	);
+	)
 
-	const metaDescription = description || site.siteMetadata.description;
+	const metaDescription = description || site.siteMetadata.description
 
 	return (
 		<Helmet
@@ -60,6 +60,13 @@ export function SEO({ description = '', lang = 'en', meta = [], title }) {
 					content: metaDescription,
 				},
 			].concat(meta)}
-		/>
-	);
+		>
+			<link
+				rel="stylesheet"
+				href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+				integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+				crossorigin="anonymous"
+			></link>
+		</Helmet>
+	)
 }

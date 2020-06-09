@@ -6,4 +6,4 @@ module.exports = {
 	bracketSpacing: true,
 	useTabs: true,
 	jsxBracketSameLine: false,
-};
+}
