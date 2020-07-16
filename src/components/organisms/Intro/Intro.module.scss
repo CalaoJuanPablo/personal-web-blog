@@ -2,8 +2,9 @@
 @import '../../../scss/variables';
 
 .Intro {
-	padding-top: 50px;
+	padding-top: 90px;
 	height: calc(100vh - 110px);
+	min-height: 500px;
 	@include container(false);
 
 	h3 {

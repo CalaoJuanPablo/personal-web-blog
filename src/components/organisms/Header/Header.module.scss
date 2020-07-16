@@ -2,11 +2,13 @@
 @import '../../../scss/mixins';
 
 .Header {
+	width: calc(100vw - 40px);
+	margin-left: auto;
+	margin-right: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 0;
-	@include heroContainer();
 
 	&__logo {
 		width: 65px;
