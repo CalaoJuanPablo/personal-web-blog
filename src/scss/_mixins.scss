@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-@import "./mixins/grids";
-@import "./mixins/breakpoints";
+@import './mixins/grids';
+@import './mixins/breakpoints';
 
 @mixin container($article) {
 	width: calc(100vw - 40px);
@@ -10,7 +10,8 @@
 	} @else {
 		max-width: 960px;
 	}
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @mixin heroContainer {
