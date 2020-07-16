@@ -1,4 +1,5 @@
 import React from 'react'
+import { ScrollIcon } from '../../atoms'
 import styles from './Intro.module.scss'
 
 export function Intro() {
@@ -14,6 +15,7 @@ export function Intro() {
 					</a>
 				</p>
 			</div>
+			<ScrollIcon />
 		</div>
 	)
 }
