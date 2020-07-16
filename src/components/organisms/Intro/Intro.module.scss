@@ -5,23 +5,41 @@
 	padding-top: 90px;
 	height: calc(100vh - 110px);
 	min-height: 500px;
+	max-height: 800px;
+	position: relative;
 	@include container(false);
+	@include media(tablet) {
+		height: calc(100vh - 145px);
+		padding-top: 200px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
 
 	h3 {
 		color: $color-lightgray;
 		font-size: 18px;
 		margin: 0;
+		@include media(tablet) {
+			font-size: 24px;
+		}
 	}
 	h1 {
 		margin: 10px 0;
 		font-weight: 500;
 		font-size: 42px;
 		line-height: 1;
+		@include media(tablet) {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
 	}
 	h4 {
 		margin: 0;
 		font-size: 18px;
 		color: #212121;
+		@include media(tablet) {
+			font-size: 24px;
+		}
 	}
 	&__mail {
 		margin-top: 80px;
