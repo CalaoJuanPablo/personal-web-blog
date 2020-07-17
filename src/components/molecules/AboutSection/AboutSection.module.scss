@@ -1,0 +1,16 @@
+@import '../../../scss/mixins';
+
+.AboutSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	@include container(false);
+	& > p {
+		@include media(tablet) {
+			text-align: center;
+		}
+		&:last-of-type {
+			margin-bottom: 50px;
+		}
+	}
+}
