@@ -3,16 +3,24 @@
 
 .Intro {
 	padding-top: 90px;
+	width: calc(100vw - 40px);
+	max-width: 1200px;
 	height: calc(100vh - 110px);
 	min-height: 500px;
 	max-height: 800px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
-	@include container(false);
 	@include media(tablet) {
 		height: calc(100vh - 145px);
 		padding-top: 200px;
 		padding-left: 40px;
 		padding-right: 40px;
+	}
+	@include media(desktop-s) {
+		padding-top: 100px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	h3 {
@@ -31,6 +39,10 @@
 		@include media(tablet) {
 			font-size: 48px;
 			margin-bottom: 20px;
+		}
+		@include media(desktop-s) {
+			font-size: 60px;
+			margin-top: 0;
 		}
 	}
 	h4 {
