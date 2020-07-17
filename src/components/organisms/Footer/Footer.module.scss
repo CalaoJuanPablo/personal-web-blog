@@ -1,9 +1,23 @@
+@import '../../../scss/mixins';
+@import '../../../scss/variables';
+
 .Footer {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	@include container(false);
+	@include media(tablet) {
+		display: grid;
+		grid-template-columns: 150px 1fr 150px;
+		align-items: center;
+	}
 
 	&__logo {
 		display: none;
+		@include media(tablet) {
+			display: block;
+			width: 70px;
+			margin: 0;
+		}
 	}
 
 	&__socialMediaLinks {
@@ -16,6 +30,10 @@
 		width: 100%;
 		max-width: 170px;
 		list-style: none;
+		@include media(tablet) {
+			grid-column: 3 / 4;
+			margin-bottom: 0;
+		}
 
 		li {
 			font-size: 30px;
@@ -24,5 +42,11 @@
 
 	&__copyright {
 		text-align: center;
+		color: $color-lightgray;
+		@include media(tablet) {
+			grid-column: 2 / 3;
+			grid-row: 1 / 2;
+			margin-bottom: 0;
+		}
 	}
 }
