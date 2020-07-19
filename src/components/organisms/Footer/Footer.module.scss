@@ -6,9 +6,9 @@
 	padding-bottom: 30px;
 	@include container(false);
 	@include media(tablet) {
-		display: grid;
-		grid-template-columns: 150px 1fr 150px;
 		align-items: center;
+		@include display-grid;
+		@include grid-template-columns(150px 1fr 150px);
 	}
 
 	&__logo {
@@ -47,6 +47,9 @@
 			grid-column: 2 / 3;
 			grid-row: 1 / 2;
 			margin-bottom: 0;
+		}
+		@include media(desktop-s) {
+			font-size: 18px;
 		}
 	}
 }
