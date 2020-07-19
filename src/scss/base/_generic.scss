@@ -89,32 +89,3 @@ a {
 		@include grid-template-columns(1fr 1fr);
 	}
 }
-
-.skill-card {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.skill-card .icon {
-	font-size: 40px;
-	margin-bottom: 12px;
-}
-
-.skill-card h3 {
-	font-size: 24px;
-	font-weight: 500;
-	margin-bottom: 12px;
-}
-
-.skill-card .border {
-	width: 60px;
-	display: block;
-	border-bottom: 2px solid #000000;
-	margin-bottom: 30px;
-}
-
-.skill-card p {
-	text-align: center;
-	margin-bottom: 20px;
-}

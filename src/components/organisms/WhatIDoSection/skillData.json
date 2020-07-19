@@ -1,0 +1,17 @@
+{
+	"gridColumns": 2,
+	"skills": [
+		{
+			"id": "what-i-do-section-skill-1",
+			"iconClassName": "fas fa-pen-nib",
+			"skillTitle": "web design",
+			"skillDescription": "I love clean, minimal and beautiful websites"
+		},
+		{
+			"id": "what-i-do-section-skill-1",
+			"iconClassName": "fas fa-code",
+			"skillTitle": "web development",
+			"skillDescription": "I focus in simplicity, reliability and performance"
+		}
+	]
+}
