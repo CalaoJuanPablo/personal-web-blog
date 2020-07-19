@@ -2,7 +2,7 @@
 import React from 'react'
 // Components
 import { AboutSection } from '../components/molecules'
-import { Intro } from '../components/organisms'
+import { Intro, WhatIDoSection } from '../components/organisms'
 import { Layout, SEO } from '../components/utilities'
 
 const IndexPage = () => (
@@ -10,6 +10,7 @@ const IndexPage = () => (
 		<SEO title="Home" />
 		<Intro />
 		<AboutSection />
+		<WhatIDoSection />
 	</Layout>
 )
 
