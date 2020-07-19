@@ -7,7 +7,7 @@
 	max-width: 1200px;
 	height: calc(100vh - 110px);
 	min-height: 500px;
-	max-height: 800px;
+	max-height: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -19,8 +19,6 @@
 	}
 	@include media(desktop-s) {
 		padding-top: 100px;
-		padding-left: 0;
-		padding-right: 0;
 	}
 
 	h3 {
@@ -61,6 +59,9 @@
 			display: inline;
 			border-bottom: 2px solid #000000;
 			padding-bottom: 2px;
+			@include media(tablet) {
+				font-size: 24px;
+			}
 			a {
 				text-decoration: none;
 			}

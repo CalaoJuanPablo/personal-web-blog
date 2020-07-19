@@ -10,6 +10,11 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 0;
+	@include media(tablet) {
+		padding-top: 35px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
 
 	&__logo {
 		width: 65px;

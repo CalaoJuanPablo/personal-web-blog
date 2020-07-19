@@ -4,11 +4,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	@include container(false);
+	@include container(true);
 	& > p {
-		@include media(tablet) {
-			text-align: center;
-		}
 		&:last-of-type {
 			margin-bottom: 50px;
 		}
