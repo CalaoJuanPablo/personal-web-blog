@@ -92,7 +92,9 @@ a {
 }
 
 .Header__nav--active {
-	color: $color-black !important;
+	@include media(desktop-s) {
+		color: $color-black !important;
+	}
 }
 
 .Header__nav--active::after {

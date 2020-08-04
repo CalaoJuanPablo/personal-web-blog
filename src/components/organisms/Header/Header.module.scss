@@ -123,9 +123,11 @@
 				a {
 					text-decoration: none;
 					font-weight: 500;
-					color: $color-lightgray;
 					display: flex;
 					flex-direction: column;
+					@include media(desktop-s) {
+						color: $color-lightgray;
+					}
 
 					&::after {
 						content: '•';
