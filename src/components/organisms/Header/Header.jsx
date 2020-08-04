@@ -37,7 +37,7 @@ export function Header() {
 					<li>
 						<Link
 							to="/"
-							activeClassName={styles['Header__nav--active']}
+							activeClassName="Header__nav--active"
 							onClick={handleCloseMenu}
 						>
 							home

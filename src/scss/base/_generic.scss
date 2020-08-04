@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import '../mixins';
+@import '../variables';
 
 * {
 	box-sizing: border-box;
@@ -88,4 +89,12 @@ a {
 	@include media(tablet) {
 		@include grid-template-columns(1fr 1fr);
 	}
+}
+
+.Header__nav--active {
+	color: $color-black !important;
+}
+
+.Header__nav--active::after {
+	color: $color-primary !important;
 }
