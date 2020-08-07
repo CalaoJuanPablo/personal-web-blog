@@ -1,0 +1,14 @@
+@import '../../../scss/mixins';
+@import '../../../scss/variables';
+
+.PortfolioSection {
+	@include section;
+	color: $color-white;
+	background-color: $color-black;
+	&__container {
+		@include container(false);
+		> h1 {
+			text-align: center;
+		}
+	}
+}

@@ -21,3 +21,16 @@
 	text-decoration: none;
 	text-align: center;
 }
+
+@mixin section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	@include media(tablet) {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	@include media(desktop-s) {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+}
