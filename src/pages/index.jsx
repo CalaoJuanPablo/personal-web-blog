@@ -7,7 +7,7 @@ import {
 	WhatIDoSection,
 	PortfolioSection,
 } from '../components/organisms'
-import { Layout, SEO } from '../components/utilities'
+import { Layout, SEO } from '../utils'
 
 const IndexPage = () => (
 	<Layout>

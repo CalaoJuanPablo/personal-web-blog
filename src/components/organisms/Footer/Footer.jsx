@@ -2,7 +2,7 @@
 import React from 'react'
 // Styles
 import styles from './Footer.module.scss'
-import { LogoSharp } from '../../utilities'
+import { LogoSharp } from '../../../utils'
 
 export function Footer() {
 	return (

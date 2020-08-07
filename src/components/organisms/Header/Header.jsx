@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 // Components
-import { LogoSharp } from '../../utilities'
+import { LogoSharp } from '../../../utils'
 // Styles
 import styles from './Header.module.scss'
 
