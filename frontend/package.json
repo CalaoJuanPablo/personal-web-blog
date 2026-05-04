@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000 --experimental-https --experimental-https-key ./.certs/privateKey.key --experimental-https-cert ./.certs/certificate.crt",
+    "build": "next build",
+    "start": "next start",
+    "types:generate": "dotenv -e .env.local -- tsx scripts/generate-types.ts",
+    "generate-cert": "node ./scripts/generate-cert",
+    "prebuild": "npm run types:generate",
+    "lint": "eslint"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "sharp",
+      "unrs-resolver"
+    ]
+  },
+  "dependencies": {
+    "@directus/sdk": "^21.2.2",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1",
+    "sass": "^1.99.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "devcert": "^1.2.3",
+    "dotenv-cli": "^11.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

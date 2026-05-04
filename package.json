@@ -1,0 +1,11 @@
+{
+  "name": "personal-web-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && docker compose up",
+    "dev:frontend": "cd frontend && pnpm dev",
+    "types:generate": "cd frontend && pnpm run types:generate",
+    "dev": "echo 'Run dev:backend and dev:frontend in separate terminals'"
+  }
+}

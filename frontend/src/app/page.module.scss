@@ -1,0 +1,19 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.main {
+  @include container;
+  min-height: 100vh;
+  padding-top: $spacing-xxl;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: $spacing-md;
+  }
+
+  p {
+    color: $color-secondary;
+    font-size: 1.125rem;
+  }
+}

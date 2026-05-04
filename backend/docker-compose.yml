@@ -1,0 +1,11 @@
+services:
+  directus:
+    image: directus/directus:latest
+    ports:
+      - "8055:8055"
+    volumes:
+      - ./data:/directus/database
+      - ./uploads:/directus/uploads
+    env_file:
+      - .env
+    restart: unless-stopped
